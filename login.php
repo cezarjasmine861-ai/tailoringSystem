@@ -32,7 +32,7 @@ require __DIR__ . '/includes/header.php';
 ?>
 <section class="auth-page">
     <div class="panel form-panel auth-panel">
-        <div class="auth-heading"><span class="brand-mark">TR</span><h1>Welcome back</h1><p class="subtitle">Log in to manage tailoring records.</p></div>
+        <div class="auth-heading"><span class="brand-mark">TS</span><h1>Welcome back</h1><p class="subtitle">Log in to manage your tailoring shop.</p></div>
         <?php if ($error): ?><div class="alert"><?= e($error) ?></div><?php endif; ?>
         <form method="post">
             <div class="form-group"><label for="username">Username</label><input id="username" name="username" autocomplete="username" required autofocus></div>

@@ -26,7 +26,7 @@ require __DIR__ . '/includes/header.php';
 
 <section class="order-slip">
     <div class="slip-header">
-        <div><div class="slip-brand">TR</div><h2>Tailoring Records</h2></div>
+        <div><div class="slip-brand">TS</div><h2>Tailoring Shops</h2></div>
         <div class="slip-number">Order #<?= e((string) $record['id']) ?><br><span><?= formatDate($record['order_date']) ?></span></div>
     </div>
     <div class="slip-rule"></div>

@@ -7,15 +7,15 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= e($pageTitle) ?> | Tailoring Record Management System</title>
+    <title><?= e($pageTitle) ?> | Tailoring Shops</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header class="topbar">
         <div class="container topbar-inner">
             <a class="brand" href="index.php">
-                <span class="brand-mark">TR</span>
-                <span>Tailoring Records</span>
+                <span class="brand-mark">TS</span>
+                <span>Tailoring Shops</span>
             </a>
             <nav class="nav-links">
                 <?php if (!empty($_SESSION['user_id'])): ?>

@@ -1,4 +1,4 @@
-# Tailoring Record Management System
+# Tailoring Shops
 
 A simple school-project style PHP and MySQL app for recording tailoring customers, garments or alterations, measurements, prices, pickup dates, and order status.
 
@@ -9,11 +9,11 @@ A simple school-project style PHP and MySQL app for recording tailoring customer
 
 ## Setup in XAMPP
 
-1. Make sure this project folder is at `C:\xampp\htdocs\haha`.
+1. Make sure this project folder is at `C:\xampp\htdocs\tailoringrecordsystem`.
 2. Open XAMPP Control Panel and start **Apache** and **MySQL**.
 3. Open `http://localhost/phpmyadmin`.
 4. Select the **Import** tab and import `database/tailoring.sql`.
-5. Visit `http://localhost/haha/` in your browser.
+5. Visit `http://localhost/tailoringrecordsytem/` in your browser.
 
 Log in with the demo account `admin` and password `admin123`.
 
